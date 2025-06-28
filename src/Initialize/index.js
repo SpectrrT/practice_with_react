@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import TicTacToe from '../TicTacToe';
+import '../styles/App.css';
 
 function Initialize() {
   const [domWriting, setDomWriting] = useState('Nothing Here!');
@@ -32,6 +34,7 @@ function Initialize() {
         </button>
       </div>
       <h3>{domWriting}</h3>
+      <TicTacToe />
     </div>
   );
 }
