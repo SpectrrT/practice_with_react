@@ -1,4 +1,4 @@
-import firebase from 'firebase/app';
+import firebase from './firebase';
 
 // These helpers allow you to login and out of FB auth with Google. These are Firebase methods and is broilerplate code.
 
