@@ -1,6 +1,6 @@
+@use 'globals';
 @import '~@fortawesome/fontawesome-free/css/all.min.css';
-@import 'globals';
 
 body {
-  background-color: $favColor !important;
+  background-color: globals.$favColor !important;
 }
