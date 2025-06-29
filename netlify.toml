@@ -1,9 +1,10 @@
 [build]
   publish = "build"
-  command = "npm run build"
+  command = "npm ci && npm run build"
 
 [build.environment]
   GENERATE_SOURCEMAP = "false"
+  NODE_VERSION = "22.17.0"
 
 [[redirects]]
   from = "/*"
